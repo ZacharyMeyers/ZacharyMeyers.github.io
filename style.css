@@ -1,0 +1,29 @@
+html,body {height:100%; width:100%; margin:0%;}
+
+body{background:url(thingy.jpg);
+      background-position: center center;
+      background-size:cover;
+      background-origin: padding-box;
+      background-color: rgba(50, 115, 220, 0.0);
+      background-repeat: no-repeat;}
+
+.main-wrapper {background:url(thingy.jpg);
+      background-position: center center;
+      background-size:cover;
+      background-origin: padding-box;
+      background-color: rgba(50, 115, 220, 0.0);
+      background-repeat: no-repeat;}
+img{width:100%;Height:auto;}
+
+
+a{
+  color:inherit;
+  display: inline-block;
+  transition:200ms;
+  padding:1em;
+  border: 1px solid;
+  }
+
+
+
+.personal-info{position:abosolute;
