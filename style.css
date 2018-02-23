@@ -1,13 +1,13 @@
 html,body {height:100%; width:100%; margin:0%;}
 
-body{background:url(thingy.jpg);
+body{background:url(batman.gif);
       background-position: center center;
       background-size:cover;
       background-origin: padding-box;
       background-color: rgba(50, 115, 220, 0.0);
       background-repeat: no-repeat;}
 
-.main-wrapper {background:url(thingy.jpg);
+.main-wrapper {background:transparent;
       background-position: center center;
       background-size:cover;
       background-origin: padding-box;
@@ -17,7 +17,7 @@ img{width:100%;Height:auto;}
 
 
 a{
-  color:inherit;
+  color:red;
   display: inline-block;
   transition:200ms;
   padding:1em;
@@ -26,4 +26,9 @@ a{
 
 
 
-.personal-info{position:abosolute;
+.personal-info
+{
+  position:absolute;
+top:50%;
+left:50%;
+transform: translateX(-50%) translateY(-50%);}
